@@ -203,6 +203,10 @@ A. Kovner, M. Lublinsky,  Y. Mulian '14
 <img src="img/qsr.pdf.png" alt="qsr" style="width: 100%;">
 </div>
 
+<div class="cite">
+E. Aschenauer et al, arXiv:1708.01527
+</div>
+
 ---
 
 ### High energy "phase diagram" of QCD
@@ -234,14 +238,23 @@ E. Aschenauer et al, arXiv:1708.01527
 
 <img src="img/ampPsi2s.png" alt="HEPD" style="width: 50%;">
 
+<div class="smallmath">
+
 $$
 \begin{aligned}
 -i \mathcal{A}_\lambda & =\int d^2 \mathbf{b} d^2 \mathbf{r} \int_0^1 \frac{ d z}{4 \pi} e^{-i \Delta \cdot\left(\mathbf{b}+\left(z-\frac{1}{2}\right) \mathbf{r}\right)}
-\\\\ & \quad \quad  \times  {\color{BrickRed} N\left(\mathbf{b}+\frac{1}{2} \mathbf{r}, \mathbf{b}-\frac{1}{2} \mathbf{r}, x\_{\mathbb{P}}\right) }
+  {\color{Red} N\left(\mathbf{b}+\frac{1}{2} \mathbf{r}, \mathbf{b}-\frac{1}{2} \mathbf{r}, x\_{\mathbb{P}}\right) }
 {\color{CornflowerBlue} \psi_\lambda^{\gamma \rightarrow q q}(\mathbf{r}, z)}
 {\color{OliveGreen} \left[\psi_\lambda^{V \rightarrow q q}(\mathbf{r}, z)\right]^* }
 \end{aligned}
 $$
+where
+$
+{\color{Red}  N(x,y) =1-  \frac{1}{N_c}{\rm Tr} (V^\dagger(y) V(x)) };
+$
+ note that the production cross section is proportional to the {\color{red} $N^2$}  
+
+</div>
 
 ---
 
@@ -298,6 +311,10 @@ $$
 
 - Direct access to multi-point correlations
 
+<div class="cite">
+F. Dominguez, C. Marquet, B.-W. Xiao, F. Yuan,  Phys.Rev.D 83 (2011) 105005
+</div>
+
 ---
 
 ### Dijet production: near to back-to-back jets
@@ -340,23 +357,50 @@ $$
 <img src="img/simul2.png" alt="HEPD" style="width: 43%;">
 <img src="img/Trans.png" alt="HEPD" style="width: 40%;">
 
+<div class="cite">
+A. Dumitru, V. Skokov, T. Ullrich, Phys.Rev.C 99 (2019) 1, 015204
+</div>
+
 ---
 
 ### Dijet Production LO results beyond
 
 ### back-to-back limit
 
+- Genuine multi-point CGC correlator
+
+<div style="display: flex; justify-content: center;">
+  <span> ${\color{LightBlue} {\rm Tr} \langle U^\dagger (\vec{x}) \partial_i U(\vec{x})   U^\dagger (\vec{y}) \partial_j U(\vec{y})  \rangle } $  
+</br> dashed
+    </span>
+  <span style="margin: 0 1%;"> $\to$ </span> <!-- Adjust margin for spacing -->
+  <span> $ {\color{red} \langle {\rm Tr} \  U(\vec{x}_1) U^\dagger (\vec{y}_1) U(\vec{y}_2) U^\dagger (\vec{x}_2)  \rangle} $
+</br> solid
+    </span>
+</div>
+
 <img src="img/BJ_proton.png" alt="HEPD" style="width: 40%;">
 <img src="img/BJ_Gold.png" alt="HEPD" style="width: 40%;">
 
-$  \langle U^\dagger (\vec{x}) \partial_i U(\vec{x}) }  U^\dagger (\vec{y}) \partial_j U(\vec{y}) } \rangle \to {\color{red} \langle {\rm Tr} \  U(\vec{x}_1) U^\dagger (\vec{y}_1) U(\vec{y}_2) U^\dagger (\vec{x}_2)  \rangle} - \langle $
+<div class="cite">
+H. Mäntysaari, N. Mueller, F. Salazar, B. Schenke, Phys.Rev.Lett. 124 (2020) 11, 112301
+</div>
 
 ---
 
 ### Dijet Production LO: Bose-Einstein correlation
 
+- Quantum statistics &rarr; gluon Bose enhancement  in hadronic wave function.
+- Initial momenta of the quark/antiquark $q$ and $\bar q$ after scattering $k_1$ and $k_2$; </br> BE   &rarr; increased probability of
+absorbing gluons with the same momentum
+- To help isolate this process:  diffractive dijet production.
+
 <img src="img/dijetMV_0.4.pdf.png" alt="HEPD" style="width: 40%;">
 <img src="img/dijetMVc_mergem.pdf.png" alt="HEPD" style="width: 40%;">
+
+<div class="cite">
+T. Kar, A. Kovner, M. Li, V.  Skokov,  JHEP 07 (2024) 134
+</div>
 
 ---
 
@@ -406,7 +450,15 @@ $$
 \end{aligned}
 $$
 
-Despite the lower colliding energy, saturation effects should be enhanced at EIC
+- Besides NLO, the need for  systematics of kinematical approximation of the standard CGC
+- CGC calculations: eikonal scattering in high energy limit
+  - Background field is localized in longitudinal direction  
+  - Only leading component of the background field (e.g. transverse component is neglected)
+  - Static nuclear wave function
+
+- Eikonal scattering might not be reliable for RHIC/EIC
+
+<!--- Despite the lower colliding energy, saturation effects should be enhanced at EIC 
 compared to HERA thanks to the use of nuclear targets. Therefore, for saturation
 sensitive observables, a more precise theoretical framework is needed in order
 to fully benefit from the EIC. This precision can be provided either by
@@ -447,7 +499,7 @@ contributions, according to the operator expectation value they contain: a
 twist-2 gluon TMD distribution (correlator of ⟨F⊥−F⊥−⟩ with a future pointing
 gauge staple), a twist-3 gluon TMD distribution (correlator of ⟨F+−F⊥−⟩ with a
 future pointing gauge staple) or a twist-3 three body contribution (correlator
-of ⟨F⊥−F⊥−F⊥−⟩ with a future pointing gauge staple)
+of ⟨F⊥−F⊥−F⊥−⟩ with a future pointing gauge staple) --->
 
 ---
 
