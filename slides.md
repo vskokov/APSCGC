@@ -236,7 +236,7 @@ E. Aschenauer et al, arXiv:1708.01527
 
 $$
 \begin{aligned}
--i \mathcal{A}_\lambda & =\int {d}^2 \mathbf{b} {d}^2 \mathbf{r} \int_0^1 \frac{{d} z}{4 \pi} e^{-i \Delta \cdot\left(\mathbf{b}+\left(z-\frac{1}{2}\right) \mathbf{r}\right)}
+-i \mathcal{A}_\lambda & =\int d^2 \mathbf{b} d^2 \mathbf{r} \int_0^1 \frac{ d z}{4 \pi} e^{-i \Delta \cdot\left(\mathbf{b}+\left(z-\frac{1}{2}\right) \mathbf{r}\right)}
 \\\\ & \quad \quad  \times  {\color{BrickRed} N\left(\mathbf{b}+\frac{1}{2} \mathbf{r}, \mathbf{b}-\frac{1}{2} \mathbf{r}, x\_{\mathbb{P}}\right) }
 {\color{CornflowerBlue} \psi_\lambda^{\gamma \rightarrow q q}(\mathbf{r}, z)}
 {\color{OliveGreen} \left[\psi_\lambda^{V \rightarrow q q}(\mathbf{r}, z)\right]^* }
