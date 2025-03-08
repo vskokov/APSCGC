@@ -286,8 +286,7 @@ J. Penttala and C. Royon, arXiv:2411.14815
 
 <div class="smallmath">
 
-$$
-\begin{aligned}
+$$ \begin{aligned}
 \frac{d \sigma^{\gamma^* A \to q\bar{q} X} }{d^3k_1 d^3k_2}  &\propto \int_\limits{x_1,x_2,y_1,y_2}
 \exp\left(- i \vec{k}_1 (\vec{x}_1-\vec{y}_1) - i\vec{k}_2(\vec{x}_2-\vec{y}_2)  \right) \\\\ &
 { \color{orange} \sum\_{\gamma \alpha \beta} \psi\_{\alpha \beta}^{  {\rm T, L} \gamma} (\vec{x}\_1 - \vec{x}\_2) \psi\_{\alpha \beta}^{ {\rm T, L} \gamma \*} (\vec{y}\_1 - \vec{y}\_2) }
@@ -349,6 +348,8 @@ $$
 
 <img src="img/BJ_proton.png" alt="HEPD" style="width: 40%;">
 <img src="img/BJ_Gold.png" alt="HEPD" style="width: 40%;">
+
+$  \langle U^\dagger (\vec{x}) \partial_i U(\vec{x}) }  U^\dagger (\vec{y}) \partial_j U(\vec{y}) } \rangle \to {\color{red} \langle {\rm Tr} \  U(\vec{x}_1) U^\dagger (\vec{y}_1) U(\vec{y}_2) U^\dagger (\vec{x}_2)  \rangle} - \langle $
 
 ---
 
