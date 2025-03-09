@@ -582,35 +582,6 @@ E. Aschenauer et al, arXiv:1708.01527
 
 ---
 
-### Systematics of diffractive vector meson production
-
-- Saturation effects and $Q^2$ and $A$ scaling properties:
-
-<div class="r-stack">
-<div class="fragment fade-in-then-out">
-
-|   | saturated | dilute | saturated | dilute |
-| --- | --- | --- | --- | --- |
-|   | $\parallel$, low $Q^2$ | $\parallel$, high $Q^2$ | $\perp$, low $Q^2$ | $\perp$, high $Q^2$ |
-| $\frac{d \sigma^{\gamma^* + A \to V + A}}{d t}\|_{t=0}$ | $Q^2 A^{4/3}$ | $Q^{-6} A^2$ | $Q^0 A^{4/3}$ | $Q^{-8} A^2$ |
-| $\sigma^{\gamma^* + A \to V+ A}$ | $Q^2 A^{2/3}$ | $Q^{-6} A^{4/3}$ | $Q^0 A^{2/3}$ | $Q^{-8} A^{4/3}$ |
-
-<div class="cite">H. Mantysaari & R. Venugopalan, '17</div>
-</div>
-
-<div class="fragment">
-
-|   | saturated | dilute |
-| --- | --- | --- |
-|   | $\parallel$, low $Q^2$ | $\parallel$, high $Q^2$ |
-| $\sigma^{\gamma^* + A \to V+ A}$ | $Q^2 A^{2/3}$ | $Q^{-6} A^{4/3}$ |
-
-<div class="cite">H. Mantysaari & R. Venugopalan, '17</div>
-</div>
-</div>
-
----
-
 ### Diffractive vector meson production
 
 <div style="text-align: center;">

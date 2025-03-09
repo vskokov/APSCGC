@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="plugin/highlight/monokai.css" />
   </head>
 
-  <style>
+ <style>
     .container {
       display: flex;
       align-items: center;
@@ -96,14 +96,7 @@
     .reveal .slides section .fragment.highlight-current-blue {
       color: #4a90e2;
     }
-
-    .reveal .slides {
-    text-align: left;
-  }
-  .reveal h1, .reveal h2, .reveal h3 {
-    text-transform: none;
-  }
-  .reveal table {
+    .reveal table {
     margin: 1em auto;
     border-collapse: collapse;
   }
@@ -112,18 +105,52 @@
     text-align: center;
     border: 1px solid #ccc;
   }
-  .blue-bg {
-    background-color: rgb(35,144,200);
-    color: white;
-  }
-  .orange-bg {
-    background-color: rgb(249,157,0);
-  }
-  .citation {
-    font-size: 0.7em;
-    text-align: right;
-    margin-top: 1em;
-  }
+
+  .reveal table thead tr {
+    border-bottom: 1px solid  #ccc; /* Adds a black lower border only below the header */
+}
+
+
+.reveal table tbody tr:last-child td {
+    border-bottom: 1px solid #ccc; /* Ensures the last row has a black bottom border */
+}
+
+.reveal table tbody  td:nth-child(2) {
+    background-color: rgb(209, 125, 0) ; /* Highlight specific cell */
+}
+
+.reveal table th:nth-child(2) {
+    background-color: rgb(209, 125, 0) ; /* Highlight specific cell */
+}
+
+.reveal table tbody  td:nth-child(3) {
+    background-color:  rgb(35,144,200) ; /* Highlight specific cell */
+}
+
+.reveal table th:nth-child(3) {
+    background-color:  rgb(35,144,200) ; /* Highlight specific cell */
+}
+
+.reveal table tbody  td:nth-child(4) {
+    background-color: rgb(209, 125, 0) ; /* Highlight specific cell */
+}
+
+.reveal table th:nth-child(4) {
+    background-color: rgb(209, 125, 0) ; /* Highlight specific cell */
+}
+
+.reveal table tbody  td:nth-child(5) {
+    background-color:  rgb(35,144,200) ; /* Highlight specific cell */
+}
+
+.reveal table th:nth-child(5) {
+    background-color:  rgb(35,144,200) ; /* Highlight specific cell */
+}
+
+
+
+
+  
   </style>
 
   <body>
