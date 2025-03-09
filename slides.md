@@ -505,135 +505,122 @@ of ⟨F⊥−F⊥−F⊥−⟩ with a future pointing gauge staple) --->
 
 ### Diffraction
 
-- • General idea: <span class="math-inline">\\sigma\_\{diff\}^\{\\gamma^\*p\} /
-  \\sigma\_\{tot\}^\{\\gamma^\*p\}</span> is maximal at black disk limit
+- General idea: $\\sigma\_\{diff\}^\{\\gamma^\*p\} /
+  \\sigma\_\{tot\}^\{\\gamma^\*p\} $ is maximal at black disk limit
 
   Saturation ⇔ Large number of diffractive events
 
-<br><br>
-
 <div style="display: flex;">
 <div style="width: 50%; text-align: center;">
-<img src="fig/diffM.pdf" alt="diffM" style="width: 80%;">
+<img src="img/diffM.png" alt="diffM" style="width: 50%;">
 </div>
 <div style="width: 50%; text-align: center;">
-<img src="fig/Tdiffr.pdf" alt="Tdiffr" style="width: 95%;">
+<img src="img/Tdiffr.png" alt="Tdiffr" style="width: 65%;">
 </div>
 </div>
 
-_(EIC White Paper, '12)_
+<div class="cite">
+(EIC White Paper, '12)
+</div>
 
 ---
 
-## Diffractive vector meson production
+### Diffractive vector meson production
 
 <div style="text-align: center;">
-<img src="fig/sigmtot.pdf" alt="sigmtot" style="width: 35%;">
-<img src="fig/diff.pdf" alt="diff" style="width: 35%;">
+<img src="img/sigmtot.pdf.png" alt="sigmtot" style="width: 25%;">
+<img src="img/diff.pdf.png" alt="diff" style="width: 25%;">
 </div>
+
+<div class="smallmath">
+
+$$\\sigma^\{\\gamma^\*p\} \\sim N\(r\) \hspace{3.5cm} \\sigma^\{\\gamma^\*p\\to Vp\} \\sim \|N\(r\)\|^2 $$
+
+</div>
+
+- Dipole amplitude includes saturation dynamics
+
+- Illustrative case study: $Q^2\\sim 1/r^2$:
 
 <div style="text-align: center;">
-<span class="math-inline">\\sigma^\{\\gamma^\*p\} \\sim N\(r\)</span> \hspace{3.5cm} <span class="math-inline">\\sigma^\{\\gamma^\*p\\to Vp\} \\sim \|N\(r\)\|^2</span>
+<img src="img/q2qs.png" alt="q2qs" style="width: 45%;">
 </div>
 
-<br><br>
-
-- • Dipole amplitude includes saturation dynamics
-
-- • Illustrative case study: <span class="math-inline">Q^2\\sim 1/r^2</span>:
-
-<div style="text-align: center;">
-<img src="fig/q2qs.pdf" alt="q2qs" style="width: 45%;">
+<div class="cite">
+E. Aschenauer et al, arXiv:1708.01527
 </div>
-
-_(E. Aschenauer et al, arXiv:1708.01527)_
 
 ---
 
-## Systematics of diffractive vector meson production
+### Systematics of diffractive vector meson production
 
-- • Saturation effects and <span class="math-inline">Q^2</span> and
-  <span class="math-inline">A</span> scaling properties:
+- Saturation effects and $Q^2$ and $A$ scaling properties:
 
-<br><br>
+<div class="r-stack">
+<div class="fragment fade-in-then-out">
 
-<div style="text-align: center;">
-<table>
-<tr>
-    <td></td>
-    <td style="background-color: rgb(35, 144, 200); color: white;">saturated</td>
-    <td style="background-color: rgb(249, 157, 0);">dilute</td>
-    <td style="background-color: rgb(23, 143, 199); color: white;">saturated</td>
-    <td style="background-color: rgb(249, 157, 0);">dilute</td>
-</tr>
-<tr>
-    <td></td>
-    <td style="color: white;">||, low <span class="math-inline">Q^2</span></td>
-    <td>||, high <span class="math-inline">Q^2</span></td>
-    <td style="color: white;">⊥, low <span class="math-inline">Q^2</span></td>
-    <td>⊥, high <span class="math-inline">Q^2</span></td>
-</tr>
-<tr>
-    <td><span class="math-inline">\\frac\{d \\sigma^\{\\gamma^\* \+ A \\to V \+ A\}\}\{d t \}\|\_\{t\=0\}</span></td>
-    <td style="color: white;"><span class="math-inline">Q^2 A^\{4/3\}</span></td>
-    <td><span class="math-inline">Q^\{\-6\} A^2</span></td>
-    <td style="color: white;"><span class="math-inline">Q^0 A^\{4/3\}</span></td>
-    <td><span class="math-inline">Q^\{\-8\} A^2</span></td>
-</tr>
-<tr>
-    <td><span class="math-inline">\\sigma^\{\\gamma^\* \+ A \\to V\+ A\}</span></td>
-    <td style="color: white;"><span class="math-inline">Q^2 A^\{2/3\}</span></td>
-    <td><span class="math-inline">Q^\{\-6\} A^\{4/3\}</span></td>
-    <td style="color: white;"><span class="math-inline">Q^0 A^\{2/3\}</span></td>
-    <td><span class="math-inline">Q^\{\-8\} A^\{4/3\}</span></td>
-</tr>
-</table>
+|   | saturated | dilute| saturated| dilute|
+| --- | --- | --- | --- | --- |
+|   | $\parallel$, low $Q^2$| $\parallel$, high $Q^2$ | $\perp$, low $Q^2$  | $\perp$, high $Q^2$  |
+| $\frac{d \sigma^{\gamma^* + A \to V + A}}{d t}\|_{t=0}$ | $Q^2 A^{4/3}$ | $Q^{-6} A^2$ | $Q^0 A^{4/3}$ | $Q^{-8} A^2$ |
+| $\sigma^{\gamma^* + A \to V+ A}$ | $Q^2 A^{2/3}$| $Q^{-6} A^{4/3}$ | $Q^0 A^{2/3}$ | $Q^{-8} A^{4/3}$ |
+
+<div class="cite">
+      H. Mantysaari & R. Venugopalan, '17</div>
 </div>
 
-_(H. Mantysaari & R. Venugopalan, '17)_
+<div class="fragment">
+
+|   | saturated | dilute |
+| --- | --- | --- |
+|   | $\parallel$, low $Q^2$ | $\parallel$, high $Q^2$ |
+| $\sigma^{\gamma^* + A \to V+ A}$ | $Q^2 A^{2/3}$ | $Q^{-6} A^{4/3}$ |
+
+<div class="cite">H. Mantysaari & R. Venugopalan, '17</div>
+</div>
+</div>
 
 ---
 
-## Diffractive vector meson production
+### Systematics of diffractive vector meson production
 
-<div style="text-align: center;">
-<img src="fig/vm.pdf" alt="vm" style="width: 65%;">
+- Saturation effects and $Q^2$ and $A$ scaling properties:
+
+<div class="r-stack">
+<div class="fragment fade-in-then-out">
+
+|   | saturated | dilute | saturated | dilute |
+| --- | --- | --- | --- | --- |
+|   | $\parallel$, low $Q^2$ | $\parallel$, high $Q^2$ | $\perp$, low $Q^2$ | $\perp$, high $Q^2$ |
+| $\frac{d \sigma^{\gamma^* + A \to V + A}}{d t}\|_{t=0}$ | $Q^2 A^{4/3}$ | $Q^{-6} A^2$ | $Q^0 A^{4/3}$ | $Q^{-8} A^2$ |
+| $\sigma^{\gamma^* + A \to V+ A}$ | $Q^2 A^{2/3}$ | $Q^{-6} A^{4/3}$ | $Q^0 A^{2/3}$ | $Q^{-8} A^{4/3}$ |
+
+<div class="cite">H. Mantysaari & R. Venugopalan, '17</div>
 </div>
 
-_(EIC White Paper, '12)_
+<div class="fragment">
 
-_(H. M\"antysaari & P. Zurita, '18)_
+|   | saturated | dilute |
+| --- | --- | --- |
+|   | $\parallel$, low $Q^2$ | $\parallel$, high $Q^2$ |
+| $\sigma^{\gamma^* + A \to V+ A}$ | $Q^2 A^{2/3}$ | $Q^{-6} A^{4/3}$ |
+
+<div class="cite">H. Mantysaari & R. Venugopalan, '17</div>
+</div>
+</div>
 
 ---
 
-## Dihadron correlations
+### Diffractive vector meson production
 
-- • Access to details of p/A structure through correlations between partons
+<div style="text-align: center;">
+<img src="img/vm.png" alt="vm" style="width: 35%;">
+</div>
 
-<br><br>
-
-- • Two key measurements:
-  - -- back-to-back correlation in <span class="math-inline">e</span>+A →
-    <span class="math-inline">e'</span> + <span class="math-inline">h_1</span> +
-    <span class="math-inline">h_2</span> + <span class="math-inline">X</span>
-    <span class="math-inline">\\sim</span> Weizs\"acker-Williams gluon
-    distribution <span class="math-inline">xG^\{\(1\)\}</span>
-  - -- structure of back-to-back correlation in
-    <span class="math-inline">e</span>+A → <span class="math-inline">e'</span> +
-    <span class="math-inline">j_1</span> +
-    <span class="math-inline">j_2</span> + <span class="math-inline">X</span>
-    <span class="math-inline">\\sim</span> linearly polarized WW gluon
-    distribution <span class="math-inline">xh^\{\(1\)\}</span>
-
-<br><br>
-
-<img src="fig/dihadron.pdf" alt="dihadron" style="width: 100%;">
-
-- • Saturation ⇒ suppression of away-side peak
-
-_(E. Aschenauer et al, arXiv:1708.01527)_
-
-_(L.~Zheng, E.~Aschenauer, J.~H.~Lee, \& B.~W.~Xia, '14)_
+<div class="cite">
+EIC White Paper, '12;
+H. Mantysaari & P. Zurita, '18
+  </div>
 
 ---
 
