@@ -525,11 +525,14 @@ of ⟨F⊥−F⊥−F⊥−⟩ with a future pointing gauge staple) --->
 
 ---
 
-### Diffractive vector meson production
+#### Diffractive vector meson production
+
+<div style="display: flex;">
+<div style="width: 50%; text-align: center;">
 
 <div style="text-align: center;">
-<img src="img/sigmtot.pdf.png" alt="sigmtot" style="width: 25%;">
-<img src="img/diff.pdf.png" alt="diff" style="width: 25%;">
+<img src="img/sigmtot.pdf.png" alt="sigmtot" style="width: 49%;">
+<img src="img/diff.pdf.png" alt="diff" style="width: 49%;">
 </div>
 
 <div class="smallmath">
@@ -538,16 +541,15 @@ $$\\sigma^\{\\gamma^\*p\} \\sim N\(r\) \hspace{3.5cm} \\sigma^\{\\gamma^\*p\\to 
 
 </div>
 
-- Dipole amplitude includes saturation dynamics
-
-- Illustrative case study: $Q^2\\sim 1/r^2$:
-
-<div style="text-align: center;">
-<img src="img/q2qs.png" alt="q2qs" style="width: 45%;">
 </div>
-
+<div style="width: 50%; text-align: center;">
+<div style="text-align: center;">
+<img src="img/q2qs.png" alt="q2qs" style="width: 80%;">
+</div>
 <div class="cite">
 E. Aschenauer et al, arXiv:1708.01527
+</div>
+</div>
 </div>
 
 ---
