@@ -232,6 +232,122 @@ E. Aschenauer et al, arXiv:1708.01527
 
 - Increase $Q^2$ to "turn off" saturation
 
+
+
+---
+
+### Diffraction
+
+- General idea: $\\sigma\_\{diff\}^\{\\gamma^\*p\} /
+  \\sigma\_\{tot\}^\{\\gamma^\*p\} $ is maximal at black disk limit
+
+  Saturation ⇔ Large number of diffractive events
+
+<div style="display: flex;">
+<div style="width: 50%; text-align: center;">
+<img src="img/diffM.png" alt="diffM" style="width: 50%;">
+</div>
+<div style="width: 50%; text-align: center;">
+<img src="img/Tdiffr.png" alt="Tdiffr" style="width: 65%;">
+</div>
+</div>
+
+<div class="cite">
+(EIC White Paper, '12)
+</div>
+
+---
+
+#### Diffractive vector meson production
+
+<div style="display: flex;">
+<div style="width: 50%; text-align: center;">
+
+<div style="text-align: center;">
+<img src="img/sigmtot.pdf.png" alt="sigmtot" style="width: 49%;">
+<img src="img/diff.pdf.png" alt="diff" style="width: 49%;">
+</div>
+
+<div class="smallmath">
+
+$$\\sigma^\{\\gamma^\*p\} \\sim N\(r\) \hspace{3.5cm} \\sigma^\{\\gamma^\*p\\to Vp\} \\sim \|N\(r\)\|^2 $$
+
+</div>
+
+</div>
+<div style="width: 50%; text-align: center;">
+<div style="text-align: center;">
+<img src="img/q2qs.png" alt="q2qs" style="width: 80%;">
+</div>
+<div class="cite">
+E. Aschenauer et al, arXiv:1708.01527
+</div>
+</div>
+</div>
+
+---
+
+### Systematics of diffractive vector meson production
+
+- Saturation effects and $Q^2$ and $A$ scaling properties:
+
+<div class="r-stack">
+<div class="fragment fade-in-then-out">
+
+|   | saturated | dilute| saturated| dilute|
+| --- | --- | --- | --- | --- |
+|   | $\parallel$, low $Q^2$| $\parallel$, high $Q^2$ | $\perp$, low $Q^2$  | $\perp$, high $Q^2$  |
+| $\frac{d \sigma^{\gamma^* + A \to V + A}}{d t}\|_{t=0}$ | $Q^2 A^{4/3}$ | $Q^{-6} A^2$ | $Q^0 A^{4/3}$ | $Q^{-8} A^2$ |
+| $\sigma^{\gamma^* + A \to V+ A}$ | $Q^2 A^{2/3}$| $Q^{-6} A^{4/3}$ | $Q^0 A^{2/3}$ | $Q^{-8} A^{4/3}$ |
+
+<div class="cite">
+      H. Mantysaari & R. Venugopalan, '17</div>
+</div>
+
+<div class="fragment">
+
+|   | saturated | dilute |
+| --- | --- | --- |
+|   | $\parallel$, low $Q^2$ | $\parallel$, high $Q^2$ |
+| $\sigma^{\gamma^* + A \to V+ A}$ | $Q^2 A^{2/3}$ | $Q^{-6} A^{4/3}$ |
+
+<div class="cite">H. Mantysaari & R. Venugopalan, '17</div>
+</div>
+</div>
+
+---
+
+### Diffractive vector meson production
+
+<div style="text-align: center;">
+<img src="img/vm_suppression.png" alt="vm" style="width: 50%;">
+</div>
+
+<div class="cite">
+EIC White Paper, '12;
+H. Mantysaari & P. Zurita, '18
+  </div>
+
+--- 
+
+### CGC and dipole model
+
+* CGC is a successful effective field theory of QCD in the high energy limit 
+* Most of the ingredients can be understood by a physics undergrad; </br>  HW assignment for my E&M 2:  
+> * Consider a static charge $q$; boost to a frame moving with $v$
+> * Take  $v\to 1  $ limit
+> * Show that $A^0 = A^z \propto q \delta(t-z) \ln (r_\perp \Lambda )$ and $\rho = q \delta(t-z) \delta^{(2)}(r_\perp)$
+* $A^+ \propto q \delta(x^-)  \ln (r_\perp \Lambda )$, $A^- = 0$, aka the shockwave approximation 
+* In QCD separation between charges and the fields are arbitrary $\leadsto$ evolution equation 
+* The picture of the hadron wave function at high energy:
+  * static charges generating non-perturbative semi-classical gluons field
+  * quantum corrections on top of it were also computed 
+* DIS: 
+  * virtual photon perturbatively creates quark/antiquark pair 
+  * this pair  undertakes  multiple scattering off the semi-classical hadron field 
+  * this leads to Wilson lines $V(x_\perp) = {\cal} e^{i g \int dx^-   A^+ }$ describing this scattering 
+  
+
 ---
 
 ### Exclusive Heavy Vector Meson Photoproduction
@@ -252,7 +368,7 @@ where
 $
 {\color{Red}  N(x,y) =1-  \frac{1}{N_c}{\rm Tr} (V^\dagger(y) V(x)) };
 $
- note that the production cross section is proportional to the {\color{red} $N^2$}  
+ note that the production cross section is proportional to the  ${\color{red} N^2}$  
 
 </div>
 
@@ -358,7 +474,7 @@ $$
 <img src="img/Trans.png" alt="HEPD" style="width: 40%;">
 
 <div class="cite">
-A. Dumitru, V. Skokov, T. Ullrich, Phys.Rev.C 99 (2019) 1, 015204
+A. Dumitru, V. S., T. Ullrich, Phys.Rev.C 99 (2019) 1, 015204
 </div>
 
 ---
@@ -399,7 +515,7 @@ absorbing gluons with the same momentum
 <img src="img/dijetMVc_mergem.pdf.png" alt="HEPD" style="width: 40%;">
 
 <div class="cite">
-T. Kar, A. Kovner, M. Li, V.  Skokov,  JHEP 07 (2024) 134
+T. Kar, A. Kovner, M. Li, V.S.,  JHEP 07 (2024) 134
 </div>
 
 ---
@@ -420,7 +536,8 @@ $$
 
 ### Dijet Production: NLO
 
-<img src="img/xsection_T-qt-dep.png" alt="HEPD" style="width: 48%;">
+<img src="img/ReA-qt-A-dep-x0=0.025.png" alt="HEPD" style="width: 48%;">
+<img src="img/ReA-qt-A-dep-x0=0.025_A.png" alt="HEPD" style="width: 48%;">
 
 <div class="smallmath">
 
@@ -429,7 +546,9 @@ $$
 \\left\\langle\\frac{d\\sigma^{(0),\\lambda,\\rm b2b}\_{\\rm LO}}{d\\eta\_f}+\\alpha\_s\\frac{d\\sigma^{(0),\\lambda,\\rm b2b}\_{\\rm NLO}}{d\\eta\_f}\\right\\rangle\_{\\eta\_f}
 &\\propto {\color{Red} \\mathcal{H}\_{\\rm LO}^{0,\\lambda}}
 \\int_{b\_\\perp, r\_\\perp} e^{-i\\mathbf{q}\_\\perp \\cdot\\mathbf{r}\_{\\perp}}  {\color{LightGreen} x G^0\_{\\eta\_f}(\\mathbf{r}\_{\\perp},\\mu\_0)}
-\\Bigg\\{ {\\color{SkyBlue} 1+\\frac{\\alpha\_s(\\mu\_R)}{\\pi}\\Big[\\underbrace{-\\frac{N\_c}{4}\\ln^2\\left(\\frac{P\_\\perp^2\\mathbf{r}\_{\\perp}^2}{c\_0^2}\\right)}\_{\\mathrm{Sudakov\\ double\\ log}} } \\\\ &\\hspace{-2.5cm}  {\\color{SkyBlue}  \\underbrace{-s\_L\\ln\\left(\\frac{P\_\\perp^2\\mathbf{r}\_{\\perp}^2}{c\_0^2}\\right) +\\beta\_0\\ln\\left(\\frac{\\mu\_R^2\\mathbf{r}\_{\\perp}^2}{c\_0^2}\\right)}\_{\\mathrm{Sudakov\\ single\\ logs}} } +\\frac{N\_c}{2}f^{\\lambda}\_1(\\chi,z\_1,R,\\eta\_f)+\\frac{1}{2 N\_c}f^{\\lambda}\_2(\\chi,z\_1,R)\\Big]\\Bigg\\} +\\cdots
+\\Bigg\\{ {\\color{SkyBlue} 1+\\frac{\\alpha\_s(\\mu\_R)}{\\pi}\\Big[\\underbrace{-\\frac{N\_c}{4}\\ln^2\\left(\\frac{P\_\\perp^2\\mathbf{r}\_{\\perp}^2}{c\_0^2}\\right)}\_{\\mathrm{Sudakov\\ double\\ log}} } \\\\ &\\hspace{-2.5cm}  {\\color{SkyBlue}  \\underbrace{-s\_L\\ln\\left(\\frac{P\_\\perp^2\\mathbf{r}\_{\\perp}^2}{c\_0^2}\\right) +\\beta\_0\\ln\\left(\\frac{\\mu\_R^2\\mathbf{r}\_{\\perp}^2}{c\_0^2}\\right)}\_{\\mathrm{Sudakov\\ single\\ logs}} } +
+\cdots 
+\\Bigg\\} +\\cdots
 \end{aligned}
 $$
 
@@ -452,11 +571,29 @@ $$
 
 - Besides NLO, the need for  systematics of kinematical approximation of the standard CGC
 - CGC calculations: eikonal scattering in high energy limit
-  - Background field is localized in longitudinal direction  
-  - Only leading component of the background field (e.g. transverse component is neglected)
+  - Background field is localized in longitudinal direction  ($x^-$)
+  - Only leading component of the background field $A^+\ne 0$(e.g. transverse component is neglected)
   - Static nuclear wave function
 
-- Eikonal scattering might not be reliable for RHIC/EIC
+- Eikonal scattering might not be reliable for RHIC/EIC. 
+
+- Next-to-eikonal dijet was computed and accounted for  
+  - finite support for the background field in longitudinal direction $x^-$ 
+  - $A_\perp$ of the background field 
+  - dynamic target ($x^+$ dependence)
+<div class="cite">
+T. Altinoluk, G. Beuf, A. Czajka and A. Tymowska, Phys. Rev. D 107, 074016  </br> 
+T. Altinoluk, G. Beuf, A. Czajka and C. Marquet, arXiv:2410.00612 </br> 
+T. Kar, A. Tarasov, V.S.  GHP APS 2025  
+</div>
+
+
+--- 
+
+### Dijet Production: Beyond Eikonal Results 
+
+
+* Analytic expressions  are not very illuminating; work on computing them numerically is in progress  
 
 <!--- Despite the lower colliding energy, saturation effects should be enhanced at EIC 
 compared to HERA thanks to the use of nuclear targets. Therefore, for saturation
@@ -501,99 +638,39 @@ gauge staple), a twist-3 gluon TMD distribution (correlator of ⟨F+−F⊥−�
 future pointing gauge staple) or a twist-3 three body contribution (correlator
 of ⟨F⊥−F⊥−F⊥−⟩ with a future pointing gauge staple) --->
 
----
 
-### Diffraction
 
-- General idea: $\\sigma\_\{diff\}^\{\\gamma^\*p\} /
-  \\sigma\_\{tot\}^\{\\gamma^\*p\} $ is maximal at black disk limit
+--- 
 
-  Saturation ⇔ Large number of diffractive events
+###  Diffractive Coherent Inelastic Jet Production 
+
 
 <div style="display: flex;">
 <div style="width: 50%; text-align: center;">
-<img src="img/diffM.png" alt="diffM" style="width: 50%;">
+<img src="img/diff_Iancu.png" alt="diffM" style="width: 100%;">
 </div>
 <div style="width: 50%; text-align: center;">
-<img src="img/Tdiffr.png" alt="Tdiffr" style="width: 65%;">
+description 
 </div>
 </div>
+
 
 <div class="cite">
-(EIC White Paper, '12)
+E. Iancu, A.H. Mueller, D.N. Triantafyllopoulos, Phys.Rev.Lett. 128 (2022) 20, 202001
 </div>
 
----
 
-#### Diffractive vector meson production
+<!--- 
+The correlation limit applies when k1⊥ , k2⊥ ≫ Qs (Y ). This in turn requires a relatively hard DIS process, with Q2 ≫ Q2s (Y ). However, very large values of Q2 lead to an enhanced radiation in the final state, which may obscure the physics of saturation, due to the Sudakov effect [32]: the recoil associated with these emissions can dominate the dijet momentum im- balance, to the detriment of gluon saturation [9].
 
-<div style="display: flex;">
-<div style="width: 50%; text-align: center;">
 
-<div style="text-align: center;">
-<img src="img/sigmtot.pdf.png" alt="sigmtot" style="width: 49%;">
-<img src="img/diff.pdf.png" alt="diff" style="width: 49%;">
-</div>
+Diffractive trijet production in the correlation limit.
+In this Letter, we propose another hard dijet process in DIS at high energy, which is even more sensitive to gluon saturation than the inclusive dijet production. This is the production of a pair of hard jets in the correlation limit, via coherent inelastic diffraction.
+“Diffraction” refers to a process in which there is a large rapidity gap between the produced jets and the nuclear target, while “inelastic” means that the two hard jets — the qq ̄ pair generated by the decay of the virtual photon — are accompanied by a softer gluon (g) jet, with transverse momentum k3, emitted by the quark or the antiquark. “Coherent” means that the hadronic target (proton or nucleus) does not break in the final state, so the rapidity gap (denoted as YP) lies on the target side.
 
-<div class="smallmath">
 
-$$\\sigma^\{\\gamma^\*p\} \\sim N\(r\) \hspace{3.5cm} \\sigma^\{\\gamma^\*p\\to Vp\} \\sim \|N\(r\)\|^2 $$
-
-</div>
-
-</div>
-<div style="width: 50%; text-align: center;">
-<div style="text-align: center;">
-<img src="img/q2qs.png" alt="q2qs" style="width: 80%;">
-</div>
-<div class="cite">
-E. Aschenauer et al, arXiv:1708.01527
-</div>
-</div>
-</div>
-
----
-
-### Systematics of diffractive vector meson production
-
-- Saturation effects and $Q^2$ and $A$ scaling properties:
-
-<div class="r-stack">
-<div class="fragment fade-in-then-out">
-
-|   | saturated | dilute| saturated| dilute|
-| --- | --- | --- | --- | --- |
-|   | $\parallel$, low $Q^2$| $\parallel$, high $Q^2$ | $\perp$, low $Q^2$  | $\perp$, high $Q^2$  |
-| $\frac{d \sigma^{\gamma^* + A \to V + A}}{d t}\|_{t=0}$ | $Q^2 A^{4/3}$ | $Q^{-6} A^2$ | $Q^0 A^{4/3}$ | $Q^{-8} A^2$ |
-| $\sigma^{\gamma^* + A \to V+ A}$ | $Q^2 A^{2/3}$| $Q^{-6} A^{4/3}$ | $Q^0 A^{2/3}$ | $Q^{-8} A^{4/3}$ |
-
-<div class="cite">
-      H. Mantysaari & R. Venugopalan, '17</div>
-</div>
-
-<div class="fragment">
-
-|   | saturated | dilute |
-| --- | --- | --- |
-|   | $\parallel$, low $Q^2$ | $\parallel$, high $Q^2$ |
-| $\sigma^{\gamma^* + A \to V+ A}$ | $Q^2 A^{2/3}$ | $Q^{-6} A^{4/3}$ |
-
-<div class="cite">H. Mantysaari & R. Venugopalan, '17</div>
-</div>
-</div>
-
----
-
-### Diffractive vector meson production
-
-<div style="text-align: center;">
-<img src="img/vm.png" alt="vm" style="width: 35%;">
-</div>
-
-<div class="cite">
-EIC White Paper, '12;
-H. Mantysaari & P. Zurita, '18
-  </div>
+In practice, we propose the experimental measurement of the hard dijets alone. But albeit not directly mea- sured, the comparatively soft, gluon, jet has a crucial in- fluence on the structure of the final state: (i) it controls the momentum imbalance between the two hard jets, and (ii) it opens up the colour space and thus yields a large size partonic configuration to probe gluon saturation in the target.
+---> 
 
 ---
 
