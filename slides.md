@@ -646,11 +646,22 @@ of ⟨F⊥−F⊥−F⊥−⟩ with a future pointing gauge staple) --->
 
 
 <div style="display: flex;">
-<div style="width: 50%; text-align: center;">
+<div style="width: 40%; text-align: center;">
 <img src="img/diff_Iancu.png" alt="diffM" style="width: 100%;">
 </div>
-<div style="width: 50%; text-align: center;">
-description 
+<div style="width: 60%; text-align: center;">
+
+- Coherent diffractive scattering
+  - Rapidity gap between p/A and hard dijet 
+  - Hadronic target remains intact   
+
+- Hard dijet $q \bar q$, $P\gg Q_S $
+- A semi-hard gluon $k_3\approx q \sim Q_s$
+- $k_3$ is integrated out up to the hard scale $P_\perp$ to suppress Sudakov effect
+
+$$
+\frac{d \sigma^{\gamma_T^* A \to q \bar q A' X}}{d^2 P d Y_{\mathbb{p}} } \propto Q^2_s(Y_{\mathbb p})
+$$
 </div>
 </div>
 
@@ -661,6 +672,9 @@ E. Iancu, A.H. Mueller, D.N. Triantafyllopoulos, Phys.Rev.Lett. 128 (2022) 20, 2
 
 
 <!--- 
+Unlike for the inclusive dijets, where the integration over K⊥ has the drawback to wash out the sensitivity to gluon saturation, there is no similar difficulty for the diffractive dijets: the function G (K⊥ )2 is rapidly de- creasing when K⊥ ≫ Qs, so its integral is dominated by K⊥ ∼ Qs and is independent of the upper cut
+
+
 The correlation limit applies when k1⊥ , k2⊥ ≫ Qs (Y ). This in turn requires a relatively hard DIS process, with Q2 ≫ Q2s (Y ). However, very large values of Q2 lead to an enhanced radiation in the final state, which may obscure the physics of saturation, due to the Sudakov effect [32]: the recoil associated with these emissions can dominate the dijet momentum im- balance, to the detriment of gluon saturation [9].
 
 
