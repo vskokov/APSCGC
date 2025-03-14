@@ -10,11 +10,13 @@ _Supported by DOE grant DE-SC002008 and SURGE Topical collaboration_
 
 ## Outline
 
-- ads
+- Gluons saturation: fundamentals 
 
-- ads
+- Experimental observables: broad strokes 
 
-- asd
+- Future oriented ideas: promising observables for EIC 
+
+- Conclusions 
 
 ---
 
@@ -231,6 +233,12 @@ E. Aschenauer et al, arXiv:1708.01527
   - while $Q_s$ increases with energy $1/x$ and $A$
 
 - Increase $Q^2$ to "turn off" saturation
+
+
+--- 
+
+### Surge collaborations  
+
 
 
 
@@ -690,19 +698,10 @@ In practice, we propose the experimental measurement of the hard dijets alone. B
 
 ### Conclusions
 
-- Universal location of YLE was one of not many unknown universal quantities
-  - FRG allowed us to find the universal location of YLE for $d>2.7$ and
-    arbitrary $N$
-  - Xu and Zamolodchikov determined location of YLE in Ising Field Theory, $d=2$
-    and $N=1$
-- To map universal location to QCD, one requires non-universal metric factors.
-  They are generically are not known.
-- Nevertheless properties of YLE singularities might be useful in establishing
-  existence/location of QCD critical point
-  - YLE is continuously connected to critical point;
-  - Two distinct approaches based on lattice input from Taylor coefficients and
-    imaginary $\mu$ $\leadsto$ approximately the same $T_c$
-  - Critical exponent $\sigma$ at YLE is universal and independent of $N$; it
-    predicts the behaviour of Lee-Yang zeroes and their scaling with volume
-  - Associated analytic structure of complex $\mu$-plane constraints the
-    behaviour of Fourier coefficients
+
+- High gluons density at small x ⇒ saturation
+
+- Intrinsically nonlinear regime of QCD: small coupling, large fields $A \sim 1/g$; 
+semi-classical description is appropriate
+
+- To probe this new regime: electron + heavy-ion collisions at high energy
