@@ -554,8 +554,20 @@ H. Mäntysaari, N. Mueller, F. Salazar, B. Schenke, Phys.Rev.Lett. 124 (2020) 11
 absorbing gluons with the same momentum
 - <span style="color:  #ff6b35;">  To help isolate this process:  diffractive dijet production. </span>
 
-<img src="img/dijetMV_0.4.pdf.png" alt="HEPD" style="width: 40%;">
-<img src="img/dijetMVc_mergem.pdf.png" alt="HEPD" style="width: 40%;">
+<div class="container">
+  
+<div style="display: flex; justify-content: center;">
+  <img src="img/dijetMV_0.4.pdf.png" alt="HEPD" style="width: 40%;">
+ <span style="margin: 0 1%;">   </span>
+  <img src="img/dijetMVc_mergem.pdf.png" alt="HEPD" style="width: 40%;">
+</div>
+    <div class="bottom-left">
+
+<div class="smallmath" style="display: flex; justify-content: left;">
+<span style="color:grey;">$\alpha_s Y = 0.4$ </span>
+</div>
+  </div>
+</div>
 
 <div class="cite">
 T. Kar, A. Kovner, M. Li, V.S.,  JHEP 07 (2024) 134
@@ -580,8 +592,8 @@ $$
 
 ### Dijet Production: NLO
 
-<img src="img/ReA-qt-A-dep-x0=0.025.png" alt="HEPD" style="width: 45%;">
-<img src="img/ReA-qt-A-dep-x0=0.025_A.png" alt="HEPD" style="width: 45%;">
+<img src="img/ReA-qt-A-dep-x0=0.025.png" alt="HEPD" style="width: 43%;">
+<img src="img/ReA-qt-A-dep-x0=0.025_A.png" alt="HEPD" style="width: 42.5%;">
 
 <div class="smallmath">
 
