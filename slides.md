@@ -10,13 +10,13 @@ _Supported by DOE grant DE-SC002008 and SURGE Topical collaboration_
 
 ## Outline
 
-- Gluons saturation: fundamentals 
+- Gluons saturation: fundamentals
 
-- Experimental observables: broad strokes 
+- Experimental observables: broad strokes
 
-- Future oriented ideas: promising observables for EIC 
+- Future oriented ideas: promising observables for EIC
 
-- Conclusions 
+- Conclusions
 
 ---
 
@@ -105,9 +105,8 @@ $$
 
 - BK was formally derived in large $N_c$ limit
 
-- JIMWLK evolution equation overcomes this deficiency; </br> it provides
-  straightforward recipe of computing any operator constructed from arbitrary
-  number of Wilson lines
+- JIMWLK evolution equation overcomes this deficiency;   <span style="color:  #ff6b35;">  provides recipe of computing any operator constructed from arbitrary
+  number of Wilson lines </span>
 
 <div class="smallmath">
 
@@ -123,20 +122,29 @@ $$
 Jalilian-Marian-Iancu-McLerran-Weigert-Leonidov-Kovner, '97-'02
 </div>
 
+- JIMWLK $\to$ Lindblad equation describing dynamics of open quantum system
+  
+  <div class="cite"> N. Armesto, F. Dominguez, A. Kovner, M. Lublinsky, V. Skokov,   JHEP 05 (2019) 025  </div>
+  
+  - <span style="color:  #ff6b35;">  Quantum computer simulations </span>
+
+  <div class="cite"> S. Tiwari, GHP APS 2025  </div>
+
 - Extension of JIMWLK beyond leading order
 
   - running coupling corrections
 
-<div class="cite">
-I. Balitsky '07; Yu. Kovchegov, H. Weigert '07; ..., T. Lappi,H. Mantysaari '13
-</div>
+  <div class="cite"> I. Balitsky '07; Yu. Kovchegov, H. Weigert '07; ..., T. Lappi,H. Mantysaari '13 </div>
+  
+  - re-interpretation of large logarithms previously attributed to running coupling
 
-- NLO JIMWLK
+  <div class="cite"> A. Kovner, M. Lublinsky, V.S., Z. Zhao, JHEP 07 (2024) 148 </div>
 
-<div class="cite">
-I. Balitsky, G. A. Chirilli;  A. Grabovsky; S. Caron-Huot </br>
-A. Kovner, M. Lublinsky,  Y. Mulian '14
-</div>
+  - NLO JIMWLK
+
+  <div class="cite"> I. Balitsky, G. A. Chirilli;  A. Grabovsky; S. Caron-Huot </br>
+  A. Kovner, M. Lublinsky,  Y. Mulian '14
+  </div>
 
 ---
 
@@ -144,8 +152,8 @@ A. Kovner, M. Lublinsky,  Y. Mulian '14
 
 <div class="medmath">
 
-- Gluon saturation leads to formation of transverse scale, $Q_s$, defined by
-  average density
+- <span style="color:  #ff6b35;">  Gluon saturation leads to formation of transverse scale, $Q_s$, defined by
+  average density </span>
 
 - At small distances $ Q_s \Delta r < 1$; system is dilute
 
@@ -155,8 +163,8 @@ A. Kovner, M. Lublinsky,  Y. Mulian '14
 
 - At large distances $ Q_s \Delta r > 1$; system is saturated;
   - there are much less gluons than perturbatively expected
-  - intrinsically non-linear regime of QCD
-  - gluon field $A_\mu \sim 1/g$ is strong: semi-classical picture
+  - <span style="color:  #ff6b35;">  intrinsically non-linear regime of QCD </span>
+  - gluon field $A \sim 1/g$ is strong: semi-classical picture
   - ⇒ Color Glass Condensate as an EFT
 
 </div>
@@ -166,10 +174,10 @@ A. Kovner, M. Lublinsky,  Y. Mulian '14
 </div>
 </div>
 
-- When $Q_s \gg  \Lambda_{\rm QCD}$, theory is calculable; nonlinear dynamics ⇒
-  experimental observables
+- <span style="color:  #ff6b35;">  When $Q_s \gg  \Lambda_{\rm QCD}$, theory is calculable; nonlinear dynamics ⇒
+  experimental observables </span>
 
-## </div>
+</div>
 
 ---
 
@@ -177,7 +185,7 @@ A. Kovner, M. Lublinsky,  Y. Mulian '14
 
 - The higher $Q_s$ the better!
 
-- Two knobs: energy (or $1/x$) and atomic number
+- <span style="color:  #ff6b35;">  Two knobs: energy (or $1/x$) and atomic number </span>
 
 - BK evolution equation dictates  
   $$Q_s^2(x) \propto \left( \frac{1}{x} \right)^\lambda \quad \quad  (\lambda \sim 1/3) $$
@@ -214,7 +222,7 @@ E. Aschenauer et al, arXiv:1708.01527
 ### High energy "phase diagram" of QCD
 
 <div style="text-align: center;">
-<img src="img/hediag.pdf.png" alt="HEPD" style="width: 70%;">
+<img src="img/hepdiag.png" alt="HEPD" style="width: 50%;">
 </div>
 
 <div class="cite">
@@ -234,13 +242,22 @@ E. Aschenauer et al, arXiv:1708.01527
 
 - Increase $Q^2$ to "turn off" saturation
 
+---
 
---- 
+### SURGE topical collaboration
 
-### Surge collaborations  
+- Goals:
+  - new techniques for computing gluon distributions in the non-saturated regime
+  
+  - precision calculations of small x evolution and of final observables
+  
+  - computing the formation and modeling of the final particles
+  
+  - Monte-Carlo implementations mimicking events as they occur in the experiments
 
+- Participating institutions:
 
-
+BNL; JLAB/Old Dominion University; McGill University; CUNY, Baruch College; UCLA; SBU; OSU; UConn; Los Alamos; UIUC; SMU; Lebanon  College; NMSU; NC State; Penn State;  UC Berkeley
 
 ---
 
@@ -278,7 +295,7 @@ E. Aschenauer et al, arXiv:1708.01527
 
 <div class="smallmath">
 
-$$\\sigma^\{\\gamma^\*p\} \\sim N\(r\) \hspace{3.5cm} \\sigma^\{\\gamma^\*p\\to Vp\} \\sim \|N\(r\)\|^2 $$
+$$\\sigma^\{\\gamma^\*p\} \\sim {\\color{ProcessBlue} N\(r\) } \hspace{3.5cm} \\sigma^\{\\gamma^\*p\\to Vp\} \\sim  {\\color{RubineRed} \|N\(r\)\|^2}  $$
 
 </div>
 
@@ -336,26 +353,32 @@ EIC White Paper, '12;
 H. Mantysaari & P. Zurita, '18
   </div>
 
---- 
+---
 
-### CGC and dipole model
+### CGC and dipole model I
 
-* CGC is a successful effective field theory of QCD in the high energy limit 
-* Most of the ingredients can be understood by a physics undergrad; </br>  HW assignment for my E&M 2:  
-> * Consider a static charge $q$; boost to a frame moving with $v$
-> * Take  $v\to 1  $ limit
-> * Show that $A^0 = A^z \propto q \delta(t-z) \ln (r_\perp \Lambda )$ and $\rho = q \delta(t-z) \delta^{(2)}(r_\perp)$
-* $A^+ \propto q \delta(x^-)  \ln (r_\perp \Lambda )$, $A^- = 0$, aka the shockwave approximation 
-* In QCD separation between charges and the fields are arbitrary $\leadsto$ evolution equation 
-* The picture of the hadron wave function at high energy:
-  * static charges generating non-perturbative semi-classical gluons field
-  * quantum corrections on top of it were also computed 
-* DIS: 
-  * virtual photon perturbatively creates quark/antiquark pair 
-  * this pair  undertakes  multiple scattering off the semi-classical hadron field 
-  * this leads to Wilson lines $V(x_\perp) = {\cal} e^{i g \int dx^-   A^+ }$ describing this scattering 
+- CGC is a successful effective field theory of QCD in the high energy limit
+- Most of the ingredients can be understood by a physics undergrad; </br>  HW assignment for my E&M 2:  
+>
+> - Consider a static charge $q$; boost to a frame moving with $v$
+> - Take  $v\to 1  $ limit
+> - Show that $A^0 = A^z \propto q \delta(t-z) \ln (r_\perp \Lambda )$ and $\rho = q \delta(t-z) \delta^{(2)}(r_\perp)$
+>
+- $A^+ \propto q \delta(x^-)  \ln (r_\perp \Lambda )$, $A^- = 0$, aka the shockwave approximation
+
+---
+
+### CGC and dipole model II
+
+- In QCD separation between charges and the fields are arbitrary $\leadsto$ evolution equation
+- <span style="color:  #ff6b35;">  The picture of the hadron wave function at high energy: </span>
+  - static charges generating non-perturbative semi-classical gluons field
+  - quantum corrections on top of it were also computed
+- <span style="color:  #ff6b35;">  DIS: </span>
+  - virtual photon perturbatively creates quark/antiquark pair
+  - this pair  undertakes  multiple scattering off the semi-classical hadron field
+  - this leads to Wilson lines $V(x_\perp) = {\cal} e^{i g \int dx^-   A^+ }$ describing this scattering
   
-
 ---
 
 ### Exclusive Heavy Vector Meson Photoproduction
@@ -385,16 +408,6 @@ $
 ### Proton target
 
 <img src="img/x1.png" alt="HEPD" style="width: 50%;">
-
-<div class="cite">
-J. Penttala and C. Royon, arXiv:2411.14815
-</div>
-
----
-
-### Nuclear target
-
-<img src="img/x2.png" alt="HEPD" style="width: 50%;">
 
 <div class="cite">
 J. Penttala and C. Royon, arXiv:2411.14815
@@ -478,6 +491,12 @@ $$
 
 ### Dijet Production LO results
 
+- MCDijet: From Monte-Carlo  sampling of dijet configurations to final state jets reconstruction.
+
+<div class="cite">
+https://github.com/vskokov/McDijet
+</div>
+
 <img src="img/simul2.png" alt="HEPD" style="width: 43%;">
 <img src="img/Trans.png" alt="HEPD" style="width: 40%;">
 
@@ -493,6 +512,10 @@ A. Dumitru, V. S., T. Ullrich, Phys.Rev.C 99 (2019) 1, 015204
 
 - Genuine multi-point CGC correlator
 
+<div class="r-stack">
+
+<div  class="fragment fade-out" data-fragment-index="0" >
+
 <div style="display: flex; justify-content: center;">
   <span> ${\color{LightBlue} {\rm Tr} \langle U^\dagger (\vec{x}) \partial_i U(\vec{x})   U^\dagger (\vec{y}) \partial_j U(\vec{y})  \rangle } $  
 </br> dashed
@@ -504,7 +527,19 @@ A. Dumitru, V. S., T. Ullrich, Phys.Rev.C 99 (2019) 1, 015204
 </div>
 
 <img src="img/BJ_proton.png" alt="HEPD" style="width: 40%;">
-<img src="img/BJ_Gold.png" alt="HEPD" style="width: 40%;">
+<img  src="img/BJ_Gold.png" alt="HEPD" style="width: 40%;">
+
+</div>
+
+<div  class="fragment current-visible" data-fragment-index="0"  >
+
+ $$   \langle {\rm Tr} \  U(\vec{x}_1) U^\dagger (\vec{y}_1)  \rangle \langle {\rm Tr} \   U(\vec{y}_2) U^\dagger (\vec{x}_2)  \rangle  /    \langle {\rm Tr} \  U(\vec{x}_1) U^\dagger (\vec{y}_1) U(\vec{y}_2) U^\dagger (\vec{x}_2)  \rangle $$  
+
+<img src="img/ratio.png" alt="HEPD" style="width: 40%;">
+
+</div>
+
+</div>
 
 <div class="cite">
 H. Mäntysaari, N. Mueller, F. Salazar, B. Schenke, Phys.Rev.Lett. 124 (2020) 11, 112301
@@ -514,10 +549,10 @@ H. Mäntysaari, N. Mueller, F. Salazar, B. Schenke, Phys.Rev.Lett. 124 (2020) 11
 
 ### Dijet Production LO: Bose-Einstein correlation
 
-- Quantum statistics &rarr; gluon Bose enhancement  in hadronic wave function.
+- <span style="color:  #ff6b35;">  Quantum statistics &rarr; gluon Bose enhancement  in hadronic wave function. </span>
 - Initial momenta of the quark/antiquark $q$ and $\bar q$ after scattering $k_1$ and $k_2$; </br> BE   &rarr; increased probability of
 absorbing gluons with the same momentum
-- To help isolate this process:  diffractive dijet production.
+- <span style="color:  #ff6b35;">  To help isolate this process:  diffractive dijet production. </span>
 
 <img src="img/dijetMV_0.4.pdf.png" alt="HEPD" style="width: 40%;">
 <img src="img/dijetMVc_mergem.pdf.png" alt="HEPD" style="width: 40%;">
@@ -537,15 +572,16 @@ $$
 \end{aligned}
 $$
 
-- Precision predictions necessitate computing corrections </br> and estimating
-  their numerical values
+- <span style="color:  #ff6b35;">  Precision predictions necessitate </span>
+  - <span style="color:  #ff6b35;"> computing corrections  </span>
+  - <span style="color:  #ff6b35;"> and estimating their numerical values </span>
 
 ---
 
 ### Dijet Production: NLO
 
-<img src="img/ReA-qt-A-dep-x0=0.025.png" alt="HEPD" style="width: 48%;">
-<img src="img/ReA-qt-A-dep-x0=0.025_A.png" alt="HEPD" style="width: 48%;">
+<img src="img/ReA-qt-A-dep-x0=0.025.png" alt="HEPD" style="width: 45%;">
+<img src="img/ReA-qt-A-dep-x0=0.025_A.png" alt="HEPD" style="width: 45%;">
 
 <div class="smallmath">
 
@@ -555,7 +591,7 @@ $$
 &\\propto {\color{Red} \\mathcal{H}\_{\\rm LO}^{0,\\lambda}}
 \\int_{b\_\\perp, r\_\\perp} e^{-i\\mathbf{q}\_\\perp \\cdot\\mathbf{r}\_{\\perp}}  {\color{LightGreen} x G^0\_{\\eta\_f}(\\mathbf{r}\_{\\perp},\\mu\_0)}
 \\Bigg\\{ {\\color{SkyBlue} 1+\\frac{\\alpha\_s(\\mu\_R)}{\\pi}\\Big[\\underbrace{-\\frac{N\_c}{4}\\ln^2\\left(\\frac{P\_\\perp^2\\mathbf{r}\_{\\perp}^2}{c\_0^2}\\right)}\_{\\mathrm{Sudakov\\ double\\ log}} } \\\\ &\\hspace{-2.5cm}  {\\color{SkyBlue}  \\underbrace{-s\_L\\ln\\left(\\frac{P\_\\perp^2\\mathbf{r}\_{\\perp}^2}{c\_0^2}\\right) +\\beta\_0\\ln\\left(\\frac{\\mu\_R^2\\mathbf{r}\_{\\perp}^2}{c\_0^2}\\right)}\_{\\mathrm{Sudakov\\ single\\ logs}} } +
-\cdots 
+\cdots
 \\Bigg\\} +\\cdots
 \end{aligned}
 $$
@@ -580,28 +616,27 @@ $$
 - Besides NLO, the need for  systematics of kinematical approximation of the standard CGC
 - CGC calculations: eikonal scattering in high energy limit
   - Background field is localized in longitudinal direction  ($x^-$)
-  - Only leading component of the background field $A^+\ne 0$(e.g. transverse component is neglected)
+  - Only leading component of the background field $A^+\ne 0$ (e.g. transverse component is neglected)
   - Static nuclear wave function
 
-- Eikonal scattering might not be reliable for RHIC/EIC. 
+- Eikonal scattering might not be reliable for RHIC/EIC.
 
 - Next-to-eikonal dijet was computed and accounted for  
-  - finite support for the background field in longitudinal direction $x^-$ 
-  - $A_\perp$ of the background field 
+  - finite support for the background field in longitudinal direction $x^-$
+  - $A_\perp$ of the background field
   - dynamic target ($x^+$ dependence)
+
 <div class="cite">
-T. Altinoluk, G. Beuf, A. Czajka and A. Tymowska, Phys. Rev. D 107, 074016  </br> 
-T. Altinoluk, G. Beuf, A. Czajka and C. Marquet, arXiv:2410.00612 </br> 
+T. Altinoluk, G. Beuf, A. Czajka and A. Tymowska, Phys. Rev. D 107, 074016  </br>
+T. Altinoluk, G. Beuf, A. Czajka and C. Marquet, arXiv:2410.00612 </br>
 T. Kar, A. Tarasov, V.S.  GHP APS 2025  
 </div>
 
+---
 
---- 
+### Dijet Production: Beyond Eikonal Results
 
-### Dijet Production: Beyond Eikonal Results 
-
-
-* Analytic expressions  are not very illuminating; work on computing them numerically is in progress  
+- Analytic expressions  are not very illuminating; work on computing them numerically is in progress  
 
 <!--- Despite the lower colliding energy, saturation effects should be enhanced at EIC 
 compared to HERA thanks to the use of nuclear targets. Therefore, for saturation
@@ -646,62 +681,59 @@ gauge staple), a twist-3 gluon TMD distribution (correlator of ⟨F+−F⊥−�
 future pointing gauge staple) or a twist-3 three body contribution (correlator
 of ⟨F⊥−F⊥−F⊥−⟩ with a future pointing gauge staple) --->
 
+---
 
+### Novel measurement
 
---- 
-
-###  Diffractive Coherent Inelastic Jet Production 
-
+### Diffractive Coherent Inelastic Jet production
 
 <div style="display: flex;">
-<div style="width: 40%; text-align: center;">
+<div style="width: 45%; text-align: center;">
 <img src="img/diff_Iancu.png" alt="diffM" style="width: 100%;">
 </div>
-<div style="width: 60%; text-align: center;">
+<div style="width: 55%; text-align: center;">
 
 - Coherent diffractive scattering
-  - Rapidity gap between p/A and hard dijet 
-  - Hadronic target remains intact   
+  - Rapidity gap between p/A and hard dijet
+  - Hadronic target remains intact
 
 - Hard dijet $q \bar q$, $P\gg Q_S $
 - A semi-hard gluon $k_3\approx q \sim Q_s$
 - $k_3$ is integrated out up to the hard scale $P_\perp$ to suppress Sudakov effect
 
 $$
-\frac{d \sigma^{\gamma_T^* A \to q \bar q A' X}}{d^2 P d Y_{\mathbb{p}} } \propto Q^2_s(Y_{\mathbb p})
+\frac{d \sigma^{\gamma_T^* A \to q \bar q A' X}}{d^2 P d Y_{\mathbb{p}} } \propto {\color{RubineRed}  Q^2_s(Y_{\mathbb p} )}
 $$
 </div>
 </div>
-
 
 <div class="cite">
 E. Iancu, A.H. Mueller, D.N. Triantafyllopoulos, Phys.Rev.Lett. 128 (2022) 20, 202001
 </div>
 
-
 <!--- 
-Unlike for the inclusive dijets, where the integration over K⊥ has the drawback to wash out the sensitivity to gluon saturation, there is no similar difficulty for the diffractive dijets: the function G (K⊥ )2 is rapidly de- creasing when K⊥ ≫ Qs, so its integral is dominated by K⊥ ∼ Qs and is independent of the upper cut
+Unlike for the inclusive dijets, where the integration over K⊥ has the drawback to wash out the sensitivity to gluon saturation, there is no similar difficulty for the diffractive dijets: the function G (K⊥ )2 is rapidly de- creasing when K⊥ gg Qs, so its integral is dominated by K⊥ sim Qs and is independent of the upper cut
 
-
-The correlation limit applies when k1⊥ , k2⊥ ≫ Qs (Y ). This in turn requires a relatively hard DIS process, with Q2 ≫ Q2s (Y ). However, very large values of Q2 lead to an enhanced radiation in the final state, which may obscure the physics of saturation, due to the Sudakov effect [32]: the recoil associated with these emissions can dominate the dijet momentum im- balance, to the detriment of gluon saturation [9].
-
+The correlation limit applies when k1⊥ , k2⊥ \gg Qs (Y ). This in turn requires a relatively hard DIS process, with Q2 \\gg Q2s (Y ). However, very large values of Q2 lead to an enhanced radiation in the final state, which may obscure the physics of saturation, due to the Sudakov effect [32]: the recoil associated with these emissions can dominate the dijet momentum im- balance, to the detriment of gluon saturation [9].
 
 Diffractive trijet production in the correlation limit.
 In this Letter, we propose another hard dijet process in DIS at high energy, which is even more sensitive to gluon saturation than the inclusive dijet production. This is the production of a pair of hard jets in the correlation limit, via coherent inelastic diffraction.
 “Diffraction” refers to a process in which there is a large rapidity gap between the produced jets and the nuclear target, while “inelastic” means that the two hard jets — the qq ̄ pair generated by the decay of the virtual photon — are accompanied by a softer gluon (g) jet, with transverse momentum k3, emitted by the quark or the antiquark. “Coherent” means that the hadronic target (proton or nucleus) does not break in the final state, so the rapidity gap (denoted as YP) lies on the target side.
 
-
 In practice, we propose the experimental measurement of the hard dijets alone. But albeit not directly mea- sured, the comparatively soft, gluon, jet has a crucial in- fluence on the structure of the final state: (i) it controls the momentum imbalance between the two hard jets, and (ii) it opens up the colour space and thus yields a large size partonic configuration to probe gluon saturation in the target.
----> 
+-->
 
 ---
 
 ### Conclusions
 
-
 - High gluons density at small x ⇒ saturation
 
-- Intrinsically nonlinear regime of QCD: small coupling, large fields $A \sim 1/g$; 
+- Intrinsically nonlinear regime of QCD: small coupling, large fields $A \sim 1/g$;
 semi-classical description is appropriate
 
-- To probe this new regime: electron + heavy-ion collisions at high energy
+- To probe this new regime: electron + heavy-ion collisions at high energy; for now the other best alternatives are UPC and p-A
+
+- There is a variety of promising signals of the saturation
+
+- The current goal is to reduce systematics of the theory to a 10% level
