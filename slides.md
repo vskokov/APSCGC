@@ -210,7 +210,7 @@ Jalilian-Marian-Iancu-McLerran-Weigert-Leonidov-Kovner, '97-'02
 ### Energy dependence of $Q_s$
 
 <div style="text-align: center;">
-<img src="img/qsr.pdf.png" alt="qsr" style="width: 100%;">
+  <img src="img/QsReach.pdf.png" alt="qsr" style="width: 100%;">
 </div>
 
 <div class="cite">
@@ -370,11 +370,11 @@ H. Mantysaari & P. Zurita, '18
 
 ### CGC and dipole model II
 
-- In QCD separation between charges and the fields are arbitrary $\leadsto$ evolution equation
+<!--- - In QCD separation between charges and the fields are arbitrary $\leadsto$ evolution equation -->
 - <span style="color:  #ff6b35;">  The picture of the hadron wave function at high energy: </span>
   - static charges generating non-perturbative semi-classical gluons field
   - quantum corrections on top of it were also computed
-- <span style="color:  #ff6b35;">  DIS: </span>
+- <span style="color:  #ff6b35;">  DIS in dipole model: </span>
   - virtual photon perturbatively creates quark/antiquark pair
   - this pair  undertakes  multiple scattering off the semi-classical hadron field
   - this leads to Wilson lines $V(x_\perp) = {\cal} e^{i g \int dx^-   A^+ }$ describing this scattering
