@@ -407,7 +407,7 @@ $
 
 ### Proton target
 
-<img src="img/x1.png" alt="HEPD" style="width: 50%;">
+<img src="img/x1.png" alt="HEPD" style="width: 45%;">
 
 <div class="cite">
 J. Penttala and C. Royon, arXiv:2411.14815
@@ -417,7 +417,7 @@ J. Penttala and C. Royon, arXiv:2411.14815
 
 ### Nuclear target $R_{pA}$
 
-<img src="img/x3.png" alt="HEPD" style="width: 50%;">
+<img src="img/x3.png" alt="HEPD" style="width: 45%;">
 
 > The existing data for exclusive J/ψ photoproduction with Pb targets shows a
 > clear preference for the existence of gluon saturation.
@@ -695,8 +695,6 @@ of ⟨F⊥−F⊥−F⊥−⟩ with a future pointing gauge staple) --->
 
 ---
 
-### Novel measurement
-
 ### Diffractive Coherent Inelastic Jet production
 
 <div style="display: flex;">
@@ -748,4 +746,4 @@ semi-classical description is appropriate
 
 - There is a variety of promising signals of the saturation
 
-- The current goal is to reduce systematics of the theory to a 10% level
+- The current goal is to reduce systematics of the theory to a 10% level through NLO and subeikonal corrections
