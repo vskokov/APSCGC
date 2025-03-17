@@ -275,6 +275,35 @@ BNL; JLAB/Old Dominion University; McGill University; CUNY, Baruch College; UCLA
 
 ---
 
+### CGC and dipole model I
+
+- CGC is a successful effective field theory of QCD in the high energy limit
+- Most of the ingredients can be understood by a physics undergrad; </br>  HW assignment for my E&M 2:  
+>
+> - Consider a static charge $q$; boost to a frame moving with $v$
+> - Take  $v\to 1  $ limit
+> - Show that $A^0 = A^z \propto q \delta(t-z) \ln (r_\perp \Lambda )$ and $\rho = q \delta(t-z) \delta^{(2)}(r_\perp)$
+>
+- $A^+ \propto q \delta(x^-)  \ln (r_\perp \Lambda )$, $A^- = 0$, aka the shockwave approximation
+
+---
+
+### CGC and dipole model II
+
+<!--- - In QCD separation between charges and the fields are arbitrary $\leadsto$ evolution equation -->
+- <span style="color:  #ff6b35;">  The picture of the hadron wave function at high energy: </span>
+  - static charges generating non-perturbative semi-classical gluons field
+  - quantum corrections on top of it were also computed
+- <span style="color:  #ff6b35;">  DIS in dipole model: </span>
+  - virtual photon perturbatively creates quark/antiquark pair
+  - this pair  undertakes  multiple scattering off the semi-classical hadron field
+  - this leads to Wilson lines $V(x_\perp) = {\cal} e^{i g \int dx^-   A^+ }$ describing this scattering
+  
+
+
+
+---
+
 #### Diffractive vector meson production
 
 <div style="display: flex;">
@@ -345,32 +374,6 @@ EIC White Paper, '12;
 H. Mantysaari & P. Zurita, '18
   </div>
 
----
-
-### CGC and dipole model I
-
-- CGC is a successful effective field theory of QCD in the high energy limit
-- Most of the ingredients can be understood by a physics undergrad; </br>  HW assignment for my E&M 2:  
->
-> - Consider a static charge $q$; boost to a frame moving with $v$
-> - Take  $v\to 1  $ limit
-> - Show that $A^0 = A^z \propto q \delta(t-z) \ln (r_\perp \Lambda )$ and $\rho = q \delta(t-z) \delta^{(2)}(r_\perp)$
->
-- $A^+ \propto q \delta(x^-)  \ln (r_\perp \Lambda )$, $A^- = 0$, aka the shockwave approximation
-
----
-
-### CGC and dipole model II
-
-<!--- - In QCD separation between charges and the fields are arbitrary $\leadsto$ evolution equation -->
-- <span style="color:  #ff6b35;">  The picture of the hadron wave function at high energy: </span>
-  - static charges generating non-perturbative semi-classical gluons field
-  - quantum corrections on top of it were also computed
-- <span style="color:  #ff6b35;">  DIS in dipole model: </span>
-  - virtual photon perturbatively creates quark/antiquark pair
-  - this pair  undertakes  multiple scattering off the semi-classical hadron field
-  - this leads to Wilson lines $V(x_\perp) = {\cal} e^{i g \int dx^-   A^+ }$ describing this scattering
-  
 ---
 
 ### Exclusive Heavy Vector Meson Photoproduction
