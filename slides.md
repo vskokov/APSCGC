@@ -251,27 +251,7 @@ E. Aschenauer et al, arXiv:1708.01527
 
 BNL; JLAB/Old Dominion University; McGill University; CUNY, Baruch College; UCLA; SBU; OSU; UConn; Los Alamos; UIUC; SMU; Lebanon  College; NMSU; NC State; Penn State;  UC Berkeley
 
----
 
-### Diffraction
-
-- General idea: $\\sigma\_\{diff\}^\{\\gamma^\*p\} /
-  \\sigma\_\{tot\}^\{\\gamma^\*p\} $ is maximal at black disk limit
-
-  Saturation ⇔ Large number of diffractive events
-
-<div style="display: flex;">
-<div style="width: 50%; text-align: center;">
-<img src="img/diffM.png" alt="diffM" style="width: 50%;">
-</div>
-<div style="width: 50%; text-align: center;">
-<img src="img/Tdiffr.png" alt="Tdiffr" style="width: 65%;">
-</div>
-</div>
-
-<div class="cite">
-(EIC White Paper, '12)
-</div>
 
 ---
 
@@ -747,4 +727,28 @@ semi-classical description is appropriate
 
 <div class="cite">
 E. Aschenauer et al, arXiv:1708.01527
+</div>
+
+
+
+---
+
+### Diffraction
+
+- General idea: $\\sigma\_\{diff\}^\{\\gamma^\*p\} /
+  \\sigma\_\{tot\}^\{\\gamma^\*p\} $ is maximal at black disk limit
+
+  Saturation ⇔ Large number of diffractive events
+
+<div style="display: flex;">
+<div style="width: 50%; text-align: center;">
+<img src="img/diffM.png" alt="diffM" style="width: 50%;">
+</div>
+<div style="width: 50%; text-align: center;">
+<img src="img/Tdiffr.png" alt="Tdiffr" style="width: 65%;">
+</div>
+</div>
+
+<div class="cite">
+(EIC White Paper, '12)
 </div>
