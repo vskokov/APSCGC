@@ -479,6 +479,12 @@ $$
 
 </div>
 
+
+<div class="cite">
+F. Dominguez, C. Marquet, B.-W. Xiao, F. Yuan,  Phys.Rev.D 83 (2011) 105005 </br>
+A. Metz, J. Zhou, Phys.Rev.D 84 (2011) 051503
+</div>
+
 ---
 
 ### Dijet Production LO results
